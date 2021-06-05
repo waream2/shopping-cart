@@ -9,7 +9,7 @@ import { useState } from "react";
 const Routes = () => {
   const [cart, setCart] = useState([]);
   const [isCollection, setIsCollection] = useState(false);
-  const [cartActive, setCartActive] = useState(true);
+  const [cartActive, setCartActive] = useState(false);
   const [totalCartItems, setTotalCartItems] = useState(0);
 
   return (
