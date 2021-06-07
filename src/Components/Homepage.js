@@ -39,7 +39,7 @@ const Homepage = () => {
             src="https://s3.us-east-1.amazonaws.com/craft-marinbikes/images/2020/bikes/grid/_bikesBikeGrid1x/2021_Nicasio_plus_Grid.jpg"
             alt="sweet bike"
           ></img>
-          <Link to="/collection">
+          <Link to="/shopping-cart/collection">
             <button className="home-cta">See Collection</button>
           </Link>
         </div>
@@ -76,7 +76,7 @@ const Homepage = () => {
             src="https://s3.us-east-1.amazonaws.com/craft-marinbikes/images/2020/bikes/grid/_bikesBikeGrid1x/2021_Nicasio_plus_Grid.jpg"
             alt="sweet bike"
           ></img>
-          <Link to="/collection">
+          <Link to="/shopping-cart/collection">
             <button className="home-cta">See Collection</button>
           </Link>
         </div>

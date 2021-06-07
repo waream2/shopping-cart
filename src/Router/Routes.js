@@ -27,8 +27,8 @@ const Routes = () => {
             setTotalCartItems,
           }}
         >
-          <Route exact path="/" component={Homepage} />
-          <Route exact path="/collection" component={Collection} />
+          <Route exact path="/shopping-cart" component={Homepage} />
+          <Route exact path="/shopping-cart/collection" component={Collection} />
         </CartContext.Provider>
       </Switch>
     </BrowserRouter>

@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <>
       <div className="header">
-        <Link to="/">
+        <Link to="/shopping-cart">
           <img
             className="logo-wrapper"
             src="http://cdn.shopify.com/s/files/1/0001/4928/files/marin-logo-black_6a842783-faa5-49d3-a4c8-5bcaf9da7763_1200x1200.png?v=1618364185"
@@ -27,7 +27,7 @@ const Header = () => {
           ></img>
         </Link>
         <div className="header-content">
-          <Link to="/collection">
+          <Link to="/shopping-cart/collection">
             <p className="collection-nav">See Collection</p>
           </Link>
           <span className="shopping-cart-header">
